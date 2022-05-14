@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-formatting documents</title>
+    <style>
+        body{
+            margin-bottom: 1000px;
+        }
+      div {
+        width: 500px;
+        border: 2px solid black;
+        margin: 100px auto;
+        padding: 20px;
+      }
+      h2 {
+        border: 2px solid red;
+        padding: 10px;
+      }
+      h2:first-child {
+        text-align: center;
+      }
+      #color h2 {
+        color:green;
+      }
+      #color h2:nth-child(2){
+          color: rgb(255,0,255);
+          background-color: red;
+      }
+      #back-color{
+          width: 700px;
+          height: 450px;
+          background-image: url("https://www.foxinfotech.in/wp-content/uploads/2021/10/full-stack-dev-laptop-e1635473491823.jpg");
+          background-position: center;
+          background-size: content;
+      }
+      h3{
+          width:500px;
+          padding: 50px;
+          margin: 30px auto;
+          background-color: darkred;
+          background-color: rgba(255, 0, 0, 0.5); /*for the backgrount transparent* a stand for alpha */
+      }
+      /*======text-decoration*/
+      a {
+          text-decoration: none;
+      }
+      h4{
+          text-decoration: underline;
+      }
+      h5{
+          /* text-decoration: overline; */
+          text-decoration: line-through;
+      }
+      #TD p{
+          text-indent: 90px;
+          letter-spacing: 2px;
+      }
+      #TD span{
+          word-spacing: 20px;
+      }
+      #box-shadow{
+          border:none;
+          width: 500px;
+          text-align: center;
+          padding: 30px;
+          box-shadow: 0px 0px 100px rgb(255,0,255);;
+      }
+      #box-shadow h1{
+          box-shadow: 0px 0px 20px green;
+          color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p style="font-size: xx-large; text-align: center;">text align properties</p>
+      <h2>text-formatting document</h2>
+      <h2 style="text-align: right">welcome to geekster</h2>
+      <h2>welcome to geekster</h2>
+    </div>
+    
+
+    <div id="color">
+        <p style="font-size: xx-large; text-align: center;">text align properties</p>
+        <h2>CSS is so easy red color</h2>
+        <h2>CSS is so easy green color</h2>
+    </div>
+    <div id="back-color">
+        <h3>transparent color</h3>
+    </div>
+    <div id="TD">
+        <a href="#">Anchor Element</a>
+        <h4>Geekster</h4>
+        <h5>Geekster</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, modi vitae, ex voluptatum aliquid exercitationem quod sequi magni sit cum facilis? Nobis numquam ut voluptatum animi nisi, dolorem amet porro nostrum ducimus error quae voluptates quos itaque veritatis, nulla vel possimus? Molestiae a hic pariatur animi. Eligendi obcaecati culpa iste.</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolores! Nam, vel fugiat? Reprehenderit explicabo voluptates qui. Aliquam expedita recusandae voluptatum cupiditate vel obcaecati excepturi. Optio illo dicta excepturi accusantium neque, aut perferendis vitae nisi assumenda similique magnam hic ratione laboriosam voluptate facere laudantium aliquid praesentium impedit beatae earum? Voluptatum quod architecto laborum, aliquid doloribus, repudiandae minus molestias voluptas nostrum est voluptatem ipsum consequuntur perferendis ipsa inventore ab! Alias, consectetur.</span>
+    </div>
+
+    <div id="box-shadow">
+        <h1>box-shadow</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veniam inventore harum error ut veritatis. Sit aliquid ipsum accusamus voluptates ullam quasi laboriosam doloremque maxime delectus! Nulla laudantium quasi dolorem a reiciendis cupiditate, dolor id commodi, nobis necessitatibus in ea quis totam laborum aut veniam sapiente ducimus esse! Quasi, quibusdam.</p>
+    </div>
+  </body>
+</html>

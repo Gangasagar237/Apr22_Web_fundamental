@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Another pseudo selector example</title>
+  </head>
+  <style>
+    /* li:first-child{
+            color: red;
+        } */
+    /* li:last-child{
+            color: aqua;
+        } */
+    /* #ul1 li:first-child{
+            color: red;
+            background-color: violet;
+            padding: 10px;
+        }
+        #ul1 li:last-child{
+            color: white;
+            background-color: blueviolet;
+            padding:10px;
+        } */
+    ul li:nth-child(even) {
+      color: red;
+      background-color: blueviolet;
+      padding: 10px;
+    }
+    ul li:nth-child(odd) {
+      color: white;
+      background-color: orange;
+      padding: 10px;
+    }
+    button {
+      background-color: blueviolet;
+      color: white;
+      padding: 10px 30px;
+      cursor:pointer;
+      border: none;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: black;
+        font-size: 30px;
+        padding: 30px 100px;
+    }
+  </style>
+  <body>
+    <ul id="ul1">
+      <li>HTML</li>
+      <li>Css</li>
+      <li>JAVASCRIPT</li>
+      <li>Bootstrap</li>
+      <li>React5</li>
+    </ul>
+    <ul id="ul2">
+      <li>HTML</li>
+      <li>Css</li>
+      <li>JAVASCRIPT</li>
+      <li>Bootstrap</li>
+      <li>React5</li>
+    </ul>
+    <button>submit</button>
+  </body>
+</html>
