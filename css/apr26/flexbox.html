@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>flexbox properties</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        font-weight: 200px;
+      }
+      h3 {
+        font-weight: 400px;
+      }
+      .container {
+        display: flex; /*divide the dive each and qual form*/
+         height: 400px;
+         
+         /* align-items: stretch; default value */
+         /* align-items: flex-start; */
+         /* align-items: flex-end; */
+         /* align-items: center; */
+
+         /* flex-direction: row; default value */
+         /* flex-direction: column; */
+         /* flex-direction: column-reverse; */
+
+         /* 
+         justify-content: space-between; */
+         /* justify-content: space-around; */
+         /* justify-content: space-evenly; */
+         /* justify-content: flex-start; */
+         /* justify-content: flex-end; */
+         justify-content: center;
+
+      }
+      .container div {
+        background-color: aqua;
+        border: 2px solid red;
+        width: 20%;
+      }
+      .item1 {
+        /* flex: 1; */
+        /* order: 3; */
+      }
+      .item2 {
+          /* flex: 1; */
+          /* order: 1; */
+      }
+      .item3 {
+          /* flex: 1; */
+          /* order: 2; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flex-Box properties</h1>
+    <div class="container">
+      <div class="item1">
+        <h3>My card 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem
+          unde, deleniti, vero porro iusto accusantium a repellat sed illum
+          suscipit laudantium recusandae sint itaque, at officia. Voluptate,
+          perspiciatis saepe!
+        </p>
+      </div>
+
+      <div class="item3">
+        <h3>My card 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem
+          unde, deleniti, vero porro iusto accusantium a repellat sed illum
+          suscipit laudantium recusandae sint itaque, at officia. Voluptate,
+          perspiciatis saepe!
+        </p>
+      </div>
+
+      <div class="item3">
+        <h3>My card 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem
+          unde, deleniti, vero porro iusto accusantium a repellat sed illum
+          suscipit laudantium recusandae sint itaque, at officia. Voluptate,
+          perspiciatis saepe!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

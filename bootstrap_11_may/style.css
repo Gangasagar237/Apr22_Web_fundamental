@@ -2,3 +2,6 @@
     width: 75%;
     left: 12%;
 }
+.accordion-button{
+    background-color: aqua !important;
+}
