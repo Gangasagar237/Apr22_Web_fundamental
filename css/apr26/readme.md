@@ -1,4 +1,8 @@
-flex - box
+flex - box(apr26-apr27 )=>
+it is a technic to arrange aour element flexibly inside the some container.
+purpose of flex=> try to make a responsive website.
+it provide some attribute....(flex-dirextion,justify-content,align-item,flex-wrap)
+
 1. align item: cente=> it align the things in the vertical direction(top to bottom direction)(it also help arrange the item left to right direction in certain case)
 
 2. FLEX-DIRECTION=>
